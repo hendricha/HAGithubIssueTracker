@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEA4185219012F3300DFCDCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA4185119012F3300DFCDCB /* Foundation.framework */; };
+		CEA4185419012F3300DFCDCB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA4185319012F3300DFCDCB /* CoreGraphics.framework */; };
+		CEA4185619012F3300DFCDCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA4185519012F3300DFCDCB /* UIKit.framework */; };
+		CEA4185C19012F3300DFCDCB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEA4185A19012F3300DFCDCB /* InfoPlist.strings */; };
+		CEA4185E19012F3300DFCDCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA4185D19012F3300DFCDCB /* main.m */; };
+		CEA4186219012F3300DFCDCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA4186119012F3300DFCDCB /* AppDelegate.m */; };
+		CEA4186519012F3300DFCDCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA4186319012F3300DFCDCB /* Main.storyboard */; };
+		CEA4186819012F3300DFCDCB /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA4186719012F3300DFCDCB /* FirstViewController.m */; };
+		CEA4186B19012F3300DFCDCB /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA4186A19012F3300DFCDCB /* SecondViewController.m */; };
+		CEA4186D19012F3300DFCDCB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA4186C19012F3300DFCDCB /* Images.xcassets */; };
+		CEA4187419012F3300DFCDCB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA4187319012F3300DFCDCB /* XCTest.framework */; };
+		CEA4187519012F3300DFCDCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA4185119012F3300DFCDCB /* Foundation.framework */; };
+		CEA4187619012F3300DFCDCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA4185519012F3300DFCDCB /* UIKit.framework */; };
+		CEA4187E19012F3300DFCDCB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEA4187C19012F3300DFCDCB /* InfoPlist.strings */; };
+		CEA4188019012F3300DFCDCB /* Hendrich_Attila_hazifeladatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA4187F19012F3300DFCDCB /* Hendrich_Attila_hazifeladatTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEA4187719012F3300DFCDCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEA4184619012F3300DFCDCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEA4184D19012F3300DFCDCB;
+			remoteInfo = "Hendrich Attila hazifeladat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEA4184E19012F3300DFCDCB /* Hendrich Attila hazifeladat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hendrich Attila hazifeladat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA4185119012F3300DFCDCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEA4185319012F3300DFCDCB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEA4185519012F3300DFCDCB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEA4185919012F3300DFCDCB /* Hendrich Attila hazifeladat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hendrich Attila hazifeladat-Info.plist"; sourceTree = "<group>"; };
+		CEA4185B19012F3300DFCDCB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEA4185D19012F3300DFCDCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEA4185F19012F3300DFCDCB /* Hendrich Attila hazifeladat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hendrich Attila hazifeladat-Prefix.pch"; sourceTree = "<group>"; };
+		CEA4186019012F3300DFCDCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEA4186119012F3300DFCDCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEA4186419012F3300DFCDCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEA4186619012F3300DFCDCB /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		CEA4186719012F3300DFCDCB /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		CEA4186919012F3300DFCDCB /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		CEA4186A19012F3300DFCDCB /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		CEA4186C19012F3300DFCDCB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CEA4187219012F3300DFCDCB /* Hendrich Attila hazifeladatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hendrich Attila hazifeladatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA4187319012F3300DFCDCB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CEA4187B19012F3300DFCDCB /* Hendrich Attila hazifeladatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hendrich Attila hazifeladatTests-Info.plist"; sourceTree = "<group>"; };
+		CEA4187D19012F3300DFCDCB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEA4187F19012F3300DFCDCB /* Hendrich_Attila_hazifeladatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hendrich_Attila_hazifeladatTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEA4184B19012F3300DFCDCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA4185419012F3300DFCDCB /* CoreGraphics.framework in Frameworks */,
+				CEA4185619012F3300DFCDCB /* UIKit.framework in Frameworks */,
+				CEA4185219012F3300DFCDCB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA4186F19012F3300DFCDCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA4187419012F3300DFCDCB /* XCTest.framework in Frameworks */,
+				CEA4187619012F3300DFCDCB /* UIKit.framework in Frameworks */,
+				CEA4187519012F3300DFCDCB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEA4184519012F3300DFCDCB = {
+			isa = PBXGroup;
+			children = (
+				CEA4185719012F3300DFCDCB /* Hendrich Attila hazifeladat */,
+				CEA4187919012F3300DFCDCB /* Hendrich Attila hazifeladatTests */,
+				CEA4185019012F3300DFCDCB /* Frameworks */,
+				CEA4184F19012F3300DFCDCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEA4184F19012F3300DFCDCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4184E19012F3300DFCDCB /* Hendrich Attila hazifeladat.app */,
+				CEA4187219012F3300DFCDCB /* Hendrich Attila hazifeladatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEA4185019012F3300DFCDCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4185119012F3300DFCDCB /* Foundation.framework */,
+				CEA4185319012F3300DFCDCB /* CoreGraphics.framework */,
+				CEA4185519012F3300DFCDCB /* UIKit.framework */,
+				CEA4187319012F3300DFCDCB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEA4185719012F3300DFCDCB /* Hendrich Attila hazifeladat */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4186019012F3300DFCDCB /* AppDelegate.h */,
+				CEA4186119012F3300DFCDCB /* AppDelegate.m */,
+				CEA4186319012F3300DFCDCB /* Main.storyboard */,
+				CEA4186619012F3300DFCDCB /* FirstViewController.h */,
+				CEA4186719012F3300DFCDCB /* FirstViewController.m */,
+				CEA4186919012F3300DFCDCB /* SecondViewController.h */,
+				CEA4186A19012F3300DFCDCB /* SecondViewController.m */,
+				CEA4186C19012F3300DFCDCB /* Images.xcassets */,
+				CEA4185819012F3300DFCDCB /* Supporting Files */,
+			);
+			path = "Hendrich Attila hazifeladat";
+			sourceTree = "<group>";
+		};
+		CEA4185819012F3300DFCDCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4185919012F3300DFCDCB /* Hendrich Attila hazifeladat-Info.plist */,
+				CEA4185A19012F3300DFCDCB /* InfoPlist.strings */,
+				CEA4185D19012F3300DFCDCB /* main.m */,
+				CEA4185F19012F3300DFCDCB /* Hendrich Attila hazifeladat-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEA4187919012F3300DFCDCB /* Hendrich Attila hazifeladatTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4187F19012F3300DFCDCB /* Hendrich_Attila_hazifeladatTests.m */,
+				CEA4187A19012F3300DFCDCB /* Supporting Files */,
+			);
+			path = "Hendrich Attila hazifeladatTests";
+			sourceTree = "<group>";
+		};
+		CEA4187A19012F3300DFCDCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4187B19012F3300DFCDCB /* Hendrich Attila hazifeladatTests-Info.plist */,
+				CEA4187C19012F3300DFCDCB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEA4184D19012F3300DFCDCB /* Hendrich Attila hazifeladat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA4188319012F3300DFCDCB /* Build configuration list for PBXNativeTarget "Hendrich Attila hazifeladat" */;
+			buildPhases = (
+				CEA4184A19012F3300DFCDCB /* Sources */,
+				CEA4184B19012F3300DFCDCB /* Frameworks */,
+				CEA4184C19012F3300DFCDCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hendrich Attila hazifeladat";
+			productName = "Hendrich Attila hazifeladat";
+			productReference = CEA4184E19012F3300DFCDCB /* Hendrich Attila hazifeladat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEA4187119012F3300DFCDCB /* Hendrich Attila hazifeladatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA4188619012F3300DFCDCB /* Build configuration list for PBXNativeTarget "Hendrich Attila hazifeladatTests" */;
+			buildPhases = (
+				CEA4186E19012F3300DFCDCB /* Sources */,
+				CEA4186F19012F3300DFCDCB /* Frameworks */,
+				CEA4187019012F3300DFCDCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEA4187819012F3300DFCDCB /* PBXTargetDependency */,
+			);
+			name = "Hendrich Attila hazifeladatTests";
+			productName = "Hendrich Attila hazifeladatTests";
+			productReference = CEA4187219012F3300DFCDCB /* Hendrich Attila hazifeladatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEA4184619012F3300DFCDCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = user;
+				TargetAttributes = {
+					CEA4187119012F3300DFCDCB = {
+						TestTargetID = CEA4184D19012F3300DFCDCB;
+					};
+				};
+			};
+			buildConfigurationList = CEA4184919012F3300DFCDCB /* Build configuration list for PBXProject "Hendrich Attila hazifeladat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEA4184519012F3300DFCDCB;
+			productRefGroup = CEA4184F19012F3300DFCDCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEA4184D19012F3300DFCDCB /* Hendrich Attila hazifeladat */,
+				CEA4187119012F3300DFCDCB /* Hendrich Attila hazifeladatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEA4184C19012F3300DFCDCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA4186D19012F3300DFCDCB /* Images.xcassets in Resources */,
+				CEA4185C19012F3300DFCDCB /* InfoPlist.strings in Resources */,
+				CEA4186519012F3300DFCDCB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA4187019012F3300DFCDCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA4187E19012F3300DFCDCB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEA4184A19012F3300DFCDCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA4186B19012F3300DFCDCB /* SecondViewController.m in Sources */,
+				CEA4186219012F3300DFCDCB /* AppDelegate.m in Sources */,
+				CEA4186819012F3300DFCDCB /* FirstViewController.m in Sources */,
+				CEA4185E19012F3300DFCDCB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA4186E19012F3300DFCDCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA4188019012F3300DFCDCB /* Hendrich_Attila_hazifeladatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEA4187819012F3300DFCDCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEA4184D19012F3300DFCDCB /* Hendrich Attila hazifeladat */;
+			targetProxy = CEA4187719012F3300DFCDCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEA4185A19012F3300DFCDCB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA4185B19012F3300DFCDCB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEA4186319012F3300DFCDCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA4186419012F3300DFCDCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEA4187C19012F3300DFCDCB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA4187D19012F3300DFCDCB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEA4188119012F3300DFCDCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEA4188219012F3300DFCDCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEA4188419012F3300DFCDCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hendrich Attila hazifeladat/Hendrich Attila hazifeladat-Prefix.pch";
+				INFOPLIST_FILE = "Hendrich Attila hazifeladat/Hendrich Attila hazifeladat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEA4188519012F3300DFCDCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hendrich Attila hazifeladat/Hendrich Attila hazifeladat-Prefix.pch";
+				INFOPLIST_FILE = "Hendrich Attila hazifeladat/Hendrich Attila hazifeladat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CEA4188719012F3300DFCDCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hendrich Attila hazifeladat.app/Hendrich Attila hazifeladat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hendrich Attila hazifeladat/Hendrich Attila hazifeladat-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Hendrich Attila hazifeladatTests/Hendrich Attila hazifeladatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CEA4188819012F3300DFCDCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hendrich Attila hazifeladat.app/Hendrich Attila hazifeladat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hendrich Attila hazifeladat/Hendrich Attila hazifeladat-Prefix.pch";
+				INFOPLIST_FILE = "Hendrich Attila hazifeladatTests/Hendrich Attila hazifeladatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEA4184919012F3300DFCDCB /* Build configuration list for PBXProject "Hendrich Attila hazifeladat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA4188119012F3300DFCDCB /* Debug */,
+				CEA4188219012F3300DFCDCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA4188319012F3300DFCDCB /* Build configuration list for PBXNativeTarget "Hendrich Attila hazifeladat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA4188419012F3300DFCDCB /* Debug */,
+				CEA4188519012F3300DFCDCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEA4188619012F3300DFCDCB /* Build configuration list for PBXNativeTarget "Hendrich Attila hazifeladatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA4188719012F3300DFCDCB /* Debug */,
+				CEA4188819012F3300DFCDCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEA4184619012F3300DFCDCB /* Project object */;
+}
