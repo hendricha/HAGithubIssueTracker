@@ -13,6 +13,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    OBDragDropManager *manager = [OBDragDropManager sharedManager];
+    [manager prepareOverlayWindowUsingMainWindow:self.window];
     return YES;
 }
 							

@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "IssueViewController.h"
 @interface SecondViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *accountField;
+@property (weak, nonatomic) IBOutlet UITextField *repoField;
+@property (weak, nonatomic) IBOutlet UISwitch *showAllSwitch;
 
 @end

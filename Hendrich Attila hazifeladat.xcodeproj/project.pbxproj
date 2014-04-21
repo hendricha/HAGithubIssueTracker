@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C34C8C255ABF4ADBB0B83366 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9402C885E0E4D96A697A315 /* libPods.a */; };
+		CE9A25701903D71A0004DD1B /* IssueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9A256F1903D71A0004DD1B /* IssueCell.m */; };
+		CE9A25761903E3D10004DD1B /* IssueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9A25751903E3D10004DD1B /* IssueViewController.m */; };
 		CEA4185219012F3300DFCDCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA4185119012F3300DFCDCB /* Foundation.framework */; };
 		CEA4185419012F3300DFCDCB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA4185319012F3300DFCDCB /* CoreGraphics.framework */; };
 		CEA4185619012F3300DFCDCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA4185519012F3300DFCDCB /* UIKit.framework */; };
@@ -14,7 +17,6 @@
 		CEA4185E19012F3300DFCDCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA4185D19012F3300DFCDCB /* main.m */; };
 		CEA4186219012F3300DFCDCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA4186119012F3300DFCDCB /* AppDelegate.m */; };
 		CEA4186519012F3300DFCDCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA4186319012F3300DFCDCB /* Main.storyboard */; };
-		CEA4186819012F3300DFCDCB /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA4186719012F3300DFCDCB /* FirstViewController.m */; };
 		CEA4186B19012F3300DFCDCB /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA4186A19012F3300DFCDCB /* SecondViewController.m */; };
 		CEA4186D19012F3300DFCDCB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA4186C19012F3300DFCDCB /* Images.xcassets */; };
 		CEA4187419012F3300DFCDCB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA4187319012F3300DFCDCB /* XCTest.framework */; };
@@ -22,6 +24,8 @@
 		CEA4187619012F3300DFCDCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA4185519012F3300DFCDCB /* UIKit.framework */; };
 		CEA4187E19012F3300DFCDCB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEA4187C19012F3300DFCDCB /* InfoPlist.strings */; };
 		CEA4188019012F3300DFCDCB /* Hendrich_Attila_hazifeladatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA4187F19012F3300DFCDCB /* Hendrich_Attila_hazifeladatTests.m */; };
+		CEDCDF0B190521AF00938988 /* TaskCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDCDF0A190521AF00938988 /* TaskCell.m */; };
+		CEDCDF0E1905233100938988 /* TasksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDCDF0D1905233100938988 /* TasksViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5FDB7C5BC4004D4A8B6B0538 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		B9402C885E0E4D96A697A315 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9A256E1903D71A0004DD1B /* IssueCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IssueCell.h; sourceTree = "<group>"; };
+		CE9A256F1903D71A0004DD1B /* IssueCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IssueCell.m; sourceTree = "<group>"; };
+		CE9A25741903E3D10004DD1B /* IssueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IssueViewController.h; sourceTree = "<group>"; };
+		CE9A25751903E3D10004DD1B /* IssueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IssueViewController.m; sourceTree = "<group>"; };
 		CEA4184E19012F3300DFCDCB /* Hendrich Attila hazifeladat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hendrich Attila hazifeladat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA4185119012F3300DFCDCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CEA4185319012F3300DFCDCB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,8 +56,6 @@
 		CEA4186019012F3300DFCDCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CEA4186119012F3300DFCDCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CEA4186419012F3300DFCDCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CEA4186619012F3300DFCDCB /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		CEA4186719012F3300DFCDCB /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		CEA4186919012F3300DFCDCB /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		CEA4186A19012F3300DFCDCB /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		CEA4186C19012F3300DFCDCB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -56,6 +64,10 @@
 		CEA4187B19012F3300DFCDCB /* Hendrich Attila hazifeladatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hendrich Attila hazifeladatTests-Info.plist"; sourceTree = "<group>"; };
 		CEA4187D19012F3300DFCDCB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CEA4187F19012F3300DFCDCB /* Hendrich_Attila_hazifeladatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hendrich_Attila_hazifeladatTests.m; sourceTree = "<group>"; };
+		CEDCDF09190521AF00938988 /* TaskCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskCell.h; sourceTree = "<group>"; };
+		CEDCDF0A190521AF00938988 /* TaskCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskCell.m; sourceTree = "<group>"; };
+		CEDCDF0C1905233100938988 /* TasksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TasksViewController.h; sourceTree = "<group>"; };
+		CEDCDF0D1905233100938988 /* TasksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TasksViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +78,7 @@
 				CEA4185419012F3300DFCDCB /* CoreGraphics.framework in Frameworks */,
 				CEA4185619012F3300DFCDCB /* UIKit.framework in Frameworks */,
 				CEA4185219012F3300DFCDCB /* Foundation.framework in Frameworks */,
+				C34C8C255ABF4ADBB0B83366 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +102,7 @@
 				CEA4187919012F3300DFCDCB /* Hendrich Attila hazifeladatTests */,
 				CEA4185019012F3300DFCDCB /* Frameworks */,
 				CEA4184F19012F3300DFCDCB /* Products */,
+				5FDB7C5BC4004D4A8B6B0538 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +122,7 @@
 				CEA4185319012F3300DFCDCB /* CoreGraphics.framework */,
 				CEA4185519012F3300DFCDCB /* UIKit.framework */,
 				CEA4187319012F3300DFCDCB /* XCTest.framework */,
+				B9402C885E0E4D96A697A315 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -118,12 +133,18 @@
 				CEA4186019012F3300DFCDCB /* AppDelegate.h */,
 				CEA4186119012F3300DFCDCB /* AppDelegate.m */,
 				CEA4186319012F3300DFCDCB /* Main.storyboard */,
-				CEA4186619012F3300DFCDCB /* FirstViewController.h */,
-				CEA4186719012F3300DFCDCB /* FirstViewController.m */,
 				CEA4186919012F3300DFCDCB /* SecondViewController.h */,
 				CEA4186A19012F3300DFCDCB /* SecondViewController.m */,
 				CEA4186C19012F3300DFCDCB /* Images.xcassets */,
 				CEA4185819012F3300DFCDCB /* Supporting Files */,
+				CE9A256E1903D71A0004DD1B /* IssueCell.h */,
+				CE9A256F1903D71A0004DD1B /* IssueCell.m */,
+				CE9A25741903E3D10004DD1B /* IssueViewController.h */,
+				CE9A25751903E3D10004DD1B /* IssueViewController.m */,
+				CEDCDF09190521AF00938988 /* TaskCell.h */,
+				CEDCDF0C1905233100938988 /* TasksViewController.h */,
+				CEDCDF0D1905233100938988 /* TasksViewController.m */,
+				CEDCDF0A190521AF00938988 /* TaskCell.m */,
 			);
 			path = "Hendrich Attila hazifeladat";
 			sourceTree = "<group>";
@@ -164,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEA4188319012F3300DFCDCB /* Build configuration list for PBXNativeTarget "Hendrich Attila hazifeladat" */;
 			buildPhases = (
+				A8FBE8314BAA41F9BC2DE524 /* Check Pods Manifest.lock */,
 				CEA4184A19012F3300DFCDCB /* Sources */,
 				CEA4184B19012F3300DFCDCB /* Frameworks */,
 				CEA4184C19012F3300DFCDCB /* Resources */,
+				CE2F85D640664DAAA9B6181E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,14 +272,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A8FBE8314BAA41F9BC2DE524 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CE2F85D640664DAAA9B6181E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CEA4184A19012F3300DFCDCB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEDCDF0B190521AF00938988 /* TaskCell.m in Sources */,
 				CEA4186B19012F3300DFCDCB /* SecondViewController.m in Sources */,
 				CEA4186219012F3300DFCDCB /* AppDelegate.m in Sources */,
-				CEA4186819012F3300DFCDCB /* FirstViewController.m in Sources */,
+				CEDCDF0E1905233100938988 /* TasksViewController.m in Sources */,
+				CE9A25761903E3D10004DD1B /* IssueViewController.m in Sources */,
+				CE9A25701903D71A0004DD1B /* IssueCell.m in Sources */,
 				CEA4185E19012F3300DFCDCB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,6 +440,7 @@
 		};
 		CEA4188419012F3300DFCDCB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FDB7C5BC4004D4A8B6B0538 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -394,6 +454,7 @@
 		};
 		CEA4188519012F3300DFCDCB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FDB7C5BC4004D4A8B6B0538 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -466,6 +527,7 @@
 				CEA4188519012F3300DFCDCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEA4188619012F3300DFCDCB /* Build configuration list for PBXNativeTarget "Hendrich Attila hazifeladatTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +536,7 @@
 				CEA4188819012F3300DFCDCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
