@@ -118,7 +118,10 @@
         cell.title.text = self.finishedTasks[indexPath.row];
         cell.type = 2;
     }
-
+    
+    cell.index = indexPath.row;
+    cell.tvc = self;
+    
     UILongPressGestureRecognizer *dragDropRecognizer = [self.manager createLongPressDragDropGestureRecognizerWithSource:self];
     [cell addGestureRecognizer:dragDropRecognizer];
     
@@ -156,12 +159,16 @@
             break;
         }
     }
+    
+    [self reloadCollections];
+    
+    return ovum;
+}
+
+- (void) reloadCollections {
     [self.backLogCollection reloadData];
     [self.inProgressCollection reloadData];
     [self.finishedCollection reloadData];
-    
-    
-    return ovum;
 }
 
 -(UIView *) createDragRepresentationOfSourceView:(UIView *)sourceView inWindow:(UIWindow*)window
@@ -213,9 +220,7 @@
 
     [self storeArrays];
     
-    [self.backLogCollection reloadData];
-    [self.inProgressCollection reloadData];
-    [self.finishedCollection reloadData];
+    [self reloadCollections];
     
     view.backgroundColor = [UIColor groupTableViewBackgroundColor];
 }
@@ -230,6 +235,7 @@
 - (IBAction)addButtonClicked:(id)sender {
     UIAlertView * alert = [[UIAlertView alloc] initWithTitle:@"Please add task description" message:@"" delegate:self cancelButtonTitle:@"Continue" otherButtonTitles:nil];
     alert.alertViewStyle = UIAlertViewStylePlainTextInput;
+
     [alert show];
 }
 
@@ -239,4 +245,5 @@
     
     [self storeArrays];
 }
+
 @end

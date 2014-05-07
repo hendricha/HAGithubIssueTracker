@@ -17,4 +17,6 @@
 @property (strong, nonatomic) NSMutableArray *finishedTasks;
 @property (strong, nonatomic) NSString *storageKey;
 @property (strong, nonatomic) NSArray *storedArray;
+- (void)storeArrays;
+- (void) reloadCollections;
 @end
